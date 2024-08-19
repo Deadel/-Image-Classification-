@@ -2,6 +2,7 @@ import tensorflow as tf
 from tensorflow.keras import datasets, layers, models
 import matplotlib.pyplot as plt
 
+"""Zbiór danych Fashion MNIST zawiera 70,000 obrazów odzieży (w odcieniach szarości), podzielonych na 10 kategorii."""
 (train_images, train_labels), (test_images, test_labels) = datasets.fashion_mnist.load_data()
 
 # Znormalizuj dane (przeskalowanie wartości pikseli do zakresu od 0 do 1)
